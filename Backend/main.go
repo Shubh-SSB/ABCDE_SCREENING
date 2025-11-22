@@ -23,6 +23,7 @@ r.Use(cors.New(cors.Config{
 
 
 	database.Connect()
+	database.Seed()
 	routes.RegisterRoutes(r)
 
 	port := os.Getenv("PORT")
