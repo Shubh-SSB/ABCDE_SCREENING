@@ -2,4 +2,4 @@
 
 // require("dotenv").config();
 // export const API = process.env.BACKENDURL;
-export const API = "http://localhost:8080";
+export const API = "https://shopping-backend-tnhx.onrender.com";
