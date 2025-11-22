@@ -12,6 +12,6 @@ func Seed() {
     }
 
     for _, item := range items {
-        database.DB.FirstOrCreate(&item, models.Item{Name: item.Name})
+        DB.FirstOrCreate(&item, models.Item{Name: item.Name})
     }
 }
